@@ -33,7 +33,14 @@ def main():
     Main entry of this program
     """
     random.seed(37) # Setting seed to 37 to see output
-    print(random.randint(1,12)) # Checking the result of first random number generation of random num between 1-12
+    print(random.randint(1,6)) # Checking the result of first random number generation of random num between 1-12
+    print(random.randint(1,6)) # Checking the result of first random number generation of random num between 1-12
+    print(random.randint(1,6)) # Checking the result of first random number generation of random num between 1-12
+    print(random.randint(1,6)) # Checking the result of first random number generation of random num between 1-12
+    print(random.randint(1,6)) # Checking the result of first random number generation of random num between 1-12
+    print(random.randint(1,6)) # Checking the result of first random number generation of random num between 1-12
+    print(random.randint(1,6)) # Checking the result of first random number generation of random num between 1-12
+    print(random.randint(1,6)) # Checking the result of first random number generation of random num between 1-12
 
 
 if __name__ == "__main__":
