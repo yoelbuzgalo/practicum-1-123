@@ -16,4 +16,13 @@ def human_years(dog_years):
         # For 3rd year and beyond
         result = (15+9) + ((dog_years - 2) * (5)) # It will add first 15 and 9 years, then for 3rd year and beyond itll multiply by 5
         return result
-    
+
+def main():
+    """
+    Main entry of this program
+    """
+    user_input = int(input("Enter dog's age in years: ")) # Prompts the user to enter dog's age in years
+    print("Equivilent human years:", human_years(user_input)) # Calls human years function and prints the result to terminal
+
+if __name__ == "__main__":
+    main()
